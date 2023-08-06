@@ -434,7 +434,7 @@ function Skills() {
               Titulations
             </h2>
             <p className="font-normal text-base leading-6 text-gray-300 text-center mb-2">
-              Here are some of my titulations:
+            In my free time I like to continue learning. These are some of the titles I have received:
             </p>
 
           <div>

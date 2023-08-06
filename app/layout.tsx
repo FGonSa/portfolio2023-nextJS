@@ -37,7 +37,7 @@ export default function RootLayout({
           <About />
           <Projects />
           <Skills />
-          <Contact />
+          {/* <Contact /> */}
           <FAB />
         </div>
         <Footer />
