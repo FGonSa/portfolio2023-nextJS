@@ -1,5 +1,5 @@
 import React from "react";
-import CarrouselWorks from "./CarrouselWorks";
+
 import Slider from "./Slider";
 
 function Projects() {
@@ -18,11 +18,8 @@ function Projects() {
               <p className="font-normal text-base leading-6 text-gray-300 text-center mb-2">
                 Here are some of my works:
               </p>
-              
 
-{/* <CarrouselWorks /> */}
-<Slider />
-
+              <Slider />
             </div>
           </div>
         </div>

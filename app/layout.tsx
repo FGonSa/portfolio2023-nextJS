@@ -7,6 +7,8 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import FAB from "./components/FAB";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,9 +36,11 @@ export default function RootLayout({
           <Hero />
           <About />
           <Projects />
+          <Skills />
+          <Contact />
           <FAB />
         </div>
-        {/* <Footer /> */}
+        <Footer />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
       </body>
     </html>

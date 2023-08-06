@@ -23,10 +23,14 @@ const About = () => {
             (Front-End/Back-End).
           </p>
           <br />
-          <p className="font-normal text-base leading-6 text-gray-300 ">
+          <p className="font-normal text-base leading-6 text-gray-300 pb-2">
             My experience in NextJS (React), Vue, Laravel, and Java, as well as
             SQL and MongoDB databases, enables me to carry out projects from the
             conception of the idea to its launch.
+          </p>
+                    <p className="font-normal text-base leading-6 text-gray-300 py-2">
+                    My main tools are NextJS, React, and the MERN Stack.
+For mobile app development I use React Native.
           </p>
         </div>
         <div className="w-full lg:w-8/12 ">

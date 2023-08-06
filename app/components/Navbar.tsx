@@ -5,8 +5,8 @@ import { Dialog } from "@headlessui/react";
 
 const navigation = [
   { name: "About", href: "#about" },
-  { name: "Skills", href: "#" },
   { name: "Works", href: "#works" },
+  { name: "Skills", href: "#skills" },
 ];
 
 export default function Navbar() {
@@ -47,7 +47,7 @@ F5antos
       </div>
       <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         <a
-          href="#"
+          href="#contact"
           className="text-sm font-semibold leading-6 text-gray-300"
         >
           Contact Me <span aria-hidden="true">&rarr;</span>
