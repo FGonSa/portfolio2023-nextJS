@@ -7,7 +7,7 @@ function WorkCard() {
         <div className="w-72 rounded-b overflow-hidden shadow-lg bg-slate-200">
           <img
             className="w-full"
-            src="/pic4.png"
+            src="/wk6.png"
             alt="Sunset in the mountains"
           />
           <div className="px-6 py-4">

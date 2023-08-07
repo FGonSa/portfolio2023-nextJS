@@ -358,7 +358,7 @@ function Skills() {
                       d="M1 5.917 5.724 10.5 15 1.5"
                     />
                   </svg>
-                  <span>Photoshop</span>
+                  <span>Prisma</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg
@@ -454,7 +454,7 @@ function Skills() {
 <a href="/java.pdf" className="bg-amber-100 hover:bg-amber-200 text-blue-900 text-md font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-amber-400 inline-flex items-center justify-center w-full">IT Academy - JAVA Foundations: POO</a>
                 </li>
                  <li className="m-2">
-                    
+                 <a href="https://learn.microsoft.com/en-us/training/achievements/learn.language.build-javascript-applications-typescript.trophy?username=FranciscoJavierGonzlezSantos-1922&sharingId=9ED96310D3B48B50" className="bg-amber-100 hover:bg-amber-200 text-blue-900 text-md font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-amber-400 inline-flex items-center justify-center w-full">Microsoft Certificate - Build JavaScript applications using TypeScript </a>
                 </li>
             </ul>
           </div>
