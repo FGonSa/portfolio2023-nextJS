@@ -4,5 +4,5 @@ interface Work {
     pic: string
     description: string
     categories: string[]
-    icons: string[]
+    icons: {}[]
  }

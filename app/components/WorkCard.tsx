@@ -1,4 +1,5 @@
 import React from "react";
+import { Tooltip } from 'react-tooltip'
 
 type Props = {
   work: Work;
@@ -22,11 +23,15 @@ function WorkCard({ work }: Props) {
             ))}
             <div className="flex items-center py-4">
               {work.icons.map((icon) => (
+                <a data-tooltip-id="my-tooltip" data-tooltip-content={icon.name}>
+                  <Tooltip id="my-tooltip" />
                   <img
                     className="w-10 h-10 rounded-full mr-4"
-                    src={icon}
+                    src={icon.url}
                     alt="icon"
                   />
+              </a>
+                
               ))}
             </div>
           </div>
