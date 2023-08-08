@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "name": "RUN TO POLITÈCNICS!",
+    "pic": "/wk1.png",
+    "description": "A game made for a School",
+    "categories": [
+        "Game"
+    ],
+    "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+    ]
+},
+{
+    "id": 2,
+    "name": "Deliveroo",
+    "pic": "/wk2.png",
+    "description": "A game made for a School",
+    "categories": [
+        "Mobile App", "Multi-Device"
+    ],
+    "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+    ]
+}
+]

@@ -1,5 +1,5 @@
 import React from "react";
-
+import data from '../works.json'
 import Slider from "./Slider";
 
 function Projects() {
@@ -19,7 +19,7 @@ function Projects() {
                 Here are some of my works:
               </p>
 
-              <Slider />
+              <Slider works={data} />
             </div>
           </div>
         </div>
