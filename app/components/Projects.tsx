@@ -1,5 +1,5 @@
 import React from "react";
-import data from '../works.json'
+import data from './works.json'
 import Slider from "./Slider";
 
 function Projects() {

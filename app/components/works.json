@@ -14,11 +14,81 @@
 },
 {
     "id": 2,
-    "name": "Deliveroo",
+    "name": "Deliveroo Clone",
+    "pic": "/wk0.png",
+    "description": "A game made for a School",
+    "categories": [
+        "Mobile App", "Multi-Device", "Tablet App", "Maps", "Android", "iOS"
+    ],
+    "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+    ]
+},
+{
+    "id": 3,
+    "name": "SOLVE App",
+    "pic": "/wk3.png",
+    "description": "A game made for a School",
+    "categories": [
+        "SaaS", "Maps", "Charts"
+    ],
+    "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+    ]
+},
+{
+    "id": 4,
+    "name": "Library Store App",
+    "pic": "/wk4.png",
+    "description": "A game made for a School",
+    "categories": [
+        "Eccomerce", "Orders"
+    ],
+    "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+    ]
+},
+{
+    "id": 5,
+    "name": "UPS Clone",
     "pic": "/wk2.png",
     "description": "A game made for a School",
     "categories": [
-        "Mobile App", "Multi-Device"
+        "Mobile App", "Multi-Device", "Tablet App", "Maps", "Android", "iOS"
+    ],
+    "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+    ]
+},
+{
+    "id": 6,
+    "name": "Congress Apps and Websites",
+    "pic": "/wk9.png",
+    "description": "Web pages and mobile applications for congresses and societies related to the medicine and sports sectors.",
+    "categories": [
+        "Tables", "Calendar", "Interactive Voting"
+    ],
+    "icons": [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+    ]
+},
+{
+    "id": 7,
+    "name": "MERNBook",
+    "pic": "/wk8.png",
+    "description": "A game made for a School",
+    "categories": [
+        "File Upload", "Users", "Forms"
     ],
     "icons": [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
