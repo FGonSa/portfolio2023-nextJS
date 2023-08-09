@@ -1,5 +1,6 @@
 interface Work {
     id: number
+   url: string
     name: string
     pic: string
     description: string

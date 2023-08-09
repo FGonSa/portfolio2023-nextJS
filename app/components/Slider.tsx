@@ -23,7 +23,9 @@ function Slider({ works }: Props) {
     <div className="w-full flex space-x-5 overflow-x-scroll py-4 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
     {/* Aquí van las Cards */}
     {works?.map((work) => (
-          <WorkCard key={work.id} work={work} />
+          // <a href={work.url}>
+          <WorkCard key={work.id} work={work} url={work.url} />
+          // </a>
         ))}
     </div>
   </motion.div>

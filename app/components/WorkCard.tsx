@@ -3,14 +3,15 @@ import { Tooltip } from 'react-tooltip'
 
 type Props = {
   work: Work;
+  url: string
 };
 
 
 
-function WorkCard({ work }: Props) {
+function WorkCard({ work, url }: Props) {
   return (
     <>
-      <div className="mx-auto">
+      <a href={url} className="mx-auto">
         <div className="w-72 h-full rounded-b overflow-hidden shadow-lg bg-slate-100 hover:bg-slate-200">
           <img className="w-full" src={work.pic} alt={work.name} />
           <div className="px-6 py-4">
@@ -25,19 +26,19 @@ function WorkCard({ work }: Props) {
             ))}
             <div className="flex items-center py-4">
               {work.icons.map((icon) => (
-                <a data-tooltip-id="my-tooltip" data-tooltip-content={icon.name}>
+                <div data-tooltip-id="my-tooltip" data-tooltip-content={icon.name}>
                   <Tooltip id="my-tooltip" />
                   <img
                     className="w-10 h-10 rounded-full mr-4"
                     src={icon.url}
                     alt="icon"
                   />
-              </a>
+              </div>
               ))}
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </>
   );
 }
