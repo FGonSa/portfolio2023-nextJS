@@ -2,9 +2,9 @@
     "id": 7,
     "name": "MERNBook",
     "pic": "/wk8.png",
-    "description": "A game made for a School",
+    "description": "A Facebook clone made with the MERN Stack. Contains follow/unfollow system, file upload and user registration.",
     "categories": [
-        "File Upload", "Users", "Forms"
+        "File Upload", "Users", "Forms", "MERN Stack"
     ],
     "icons": [
         {
@@ -33,7 +33,7 @@
     "id": 5,
     "name": "UPS Clone",
     "pic": "/wk2.png",
-    "description": "A game made for a School",
+    "description": "Mobile App for a parcel company. It works on both Android and iOS thanks to React Native.",
     "categories": [
         "Mobile App", "Multi-Device", "Tablet App", "Maps", "Android", "iOS"
     ],
@@ -64,7 +64,7 @@
     "id": 4,
     "name": "Library Store App",
     "pic": "/wk4.png",
-    "description": "A game made for a School",
+    "description": "The user can order the books he wants from the bookstore catalog and at the end send the order to the cashier.",
     "categories": [
         "Eccomerce", "Orders"
     ],
@@ -89,9 +89,9 @@
 },
 {
     "id": 2,
-    "name": "Deliveroo Clone",
+    "name": "Food Delivery App",
     "pic": "/wk0.png",
-    "description": "A game made for a School",
+    "description": "Mobile App for food delivery. It works on both Android and iOS thanks to React Native.",
     "categories": [
         "Mobile App", "Multi-Device", "Tablet App", "Maps", "Android", "iOS"
     ],
@@ -118,7 +118,7 @@
     "id": 3,
     "name": "SOLVE App",
     "pic": "/wk3.png",
-    "description": "A game made for a School",
+    "description": "Browser application for EMTs.",
     "categories": [
         "SaaS", "Maps", "Charts"
     ],
@@ -161,6 +161,10 @@
             "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
         },
         {
+            "name": "PHP",
+            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+        },
+        {
             "name": "MySQL",
             "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
         }
@@ -170,7 +174,7 @@
     "id": 1,
     "name": "RUN TO POLITÈCNICS!",
     "pic": "/wk1.png",
-    "description": "A game made for a School",
+    "description": "Browser game made for a games page of a school academy.",
     "categories": [
         "Game"
     ],
@@ -186,6 +190,37 @@
         {
             "name": "MySQL",
             "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+        }
+    ]
+},
+{
+    "id": 8,
+    "name": "Portfolios",
+    "pic": "/wk7.png",
+    "description": "Portfolios made to show the work of people.",
+    "categories": [
+        "Portfolio", "Design"
+    ],
+    "icons": [
+        {
+            "name": "Next JS",
+            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+        },
+        {
+            "name": "React JS",
+            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+            "name": "MySQL",
+            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+        },
+        {
+            "name": "Tailwind CSS",
+            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        },
+        {
+            "name": "Figma",
+            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
         }
     ]
 }

@@ -31,6 +31,7 @@ export default function Hero() {
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 Fullstack Web / App Developer
               </p>
+
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
@@ -39,6 +40,9 @@ export default function Hero() {
                   Descargar CV
                 </a>
               </div>
+              <p className="mt-3 text-sm leading-8 text-gray-300">
+                Portfolio created with TypeScript & NextJS
+              </p>
             </div>
           </div>
           <div
