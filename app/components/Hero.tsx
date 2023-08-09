@@ -1,15 +1,10 @@
+import BackgroundCircles from "./BackgroundCircles"
+
 export default function Hero() {
   return (
     <>
-      {/* <div
-        className="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
-        style={{ backgroundImage:"url('./fondo.jpg')" }}
-      > */}
-        {/* <div
-          className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.8" }}
-        ></div> */}
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        <div className="relative isolate px-6 pt-14 lg:px-8 cross">
+ 
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -21,7 +16,7 @@ export default function Hero() {
                 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
             }}
           />
-        </div>
+        B</div>
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
             <div className="text-center">
@@ -40,9 +35,7 @@ export default function Hero() {
                   Descargar CV
                 </a>
               </div>
-              <p className="mt-3 text-sm leading-8 text-gray-300">
-                Portfolio created with TypeScript & NextJS
-              </p>
+
             </div>
           </div>
           <div

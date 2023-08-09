@@ -11,7 +11,7 @@ function WorkCard({ work }: Props) {
   return (
     <>
       <div className="mx-auto">
-        <div className="w-72 rounded-b overflow-hidden shadow-lg bg-slate-200">
+        <div className="w-72 h-full rounded-b overflow-hidden shadow-lg bg-slate-100 hover:bg-slate-200">
           <img className="w-full" src={work.pic} alt={work.name} />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">{work.name}</div>

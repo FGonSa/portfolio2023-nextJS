@@ -1,8 +1,18 @@
+"use client"
 import React from "react";
 import CarrouselAbout from "./CarrouselAbout";
+import {motion} from 'framer-motion'
 
 const About = () => {
   return (
+    <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    //   viewport={{ once: true }}
+    transition={{ duration: 3 }}
+    
+  >
+    
     <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
       <div className="flex flex-col lg:flex-row justify-between gap-8">
         <div className="w-full lg:w-5/12 flex flex-col justify-center">
@@ -112,6 +122,7 @@ For mobile app development I use React Native.
         <CarrouselAbout />
       </div>
     </div>
+    </motion.div>
   );
 };
 
