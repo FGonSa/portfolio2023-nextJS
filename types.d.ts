@@ -4,5 +4,10 @@ interface Work {
     pic: string
     description: string
     categories: string[]
-    icons: {}[]
+    icons: Icon[]
  }
+
+ type Icon = {
+    name: string;
+    url: string;
+  };

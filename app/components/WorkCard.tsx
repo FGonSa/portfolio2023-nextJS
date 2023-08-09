@@ -5,6 +5,8 @@ type Props = {
   work: Work;
 };
 
+
+
 function WorkCard({ work }: Props) {
   return (
     <>
@@ -31,7 +33,6 @@ function WorkCard({ work }: Props) {
                     alt="icon"
                   />
               </a>
-                
               ))}
             </div>
           </div>
