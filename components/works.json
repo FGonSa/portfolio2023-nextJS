@@ -155,12 +155,16 @@
     "pic": "/wk9.png",
     "description": "Web pages and mobile applications for congresses and societies related to the medicine and sports sectors.",
     "categories": [
-        "Tables", "Calendar", "Interactive Voting"
+        "Tables", "Calendar", "Interactive Voting", "Mobile App"
     ],
     "icons": [
         {
             "name": "React JS",
             "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        },
+        {
+            "name": "React Native",
+            "url": "https://files.readme.io/fed7fbc-765-7652239_react-native-svg-logo-hd-png-download.png"
         },
         {
             "name": "WordPress",

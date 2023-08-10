@@ -1,14 +1,14 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
-import FAB from "./components/FAB";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Footer from "../components/Footer";
+import FAB from "../components/FAB";
+import Skills from "../components/Skills";
+import Contact from "../components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
