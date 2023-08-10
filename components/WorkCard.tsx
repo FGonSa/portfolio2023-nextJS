@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Tooltip } from 'react-tooltip'
 
@@ -11,7 +12,7 @@ type Props = {
 function WorkCard({ work, url }: Props) {
   return (
     <>
-      <a href={url} className="mx-auto">
+      <Link href={`/works/${work.url}`}>
         <div className="w-72 h-full rounded-b overflow-hidden shadow-lg bg-slate-100 hover:bg-slate-200">
           <img className="w-full" src={work.pic} alt={work.name} />
           <div className="px-6 py-4">
@@ -38,7 +39,7 @@ function WorkCard({ work, url }: Props) {
             </div>
           </div>
         </div>
-      </a>
+        </Link>
     </>
   );
 }
