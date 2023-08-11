@@ -1,154 +1,129 @@
 ---
-title: "Getting Started with AWS"
-subtitle: "Create an AWS account and set up CLI/SDK access."
-date: "2020-12-27"
+title: "Create retro games with PICO-8"
+subtitle: "8-bit games are a great way to learn and expand your portfolio."
+date: "2020-12-19"
+cr: ["https://www.artstation.com/shizuorin"]
 ---
 
-"Cloud computing" plays a vital role in the creation of software products and services. It's also one of the most highly sought-after skills in the tech industry.
+After watching [High Score](https://www.youtube.com/watch?v=B4jopG1wX88) on Netflix, I was suddenly inspired to develop a retro-style game. I think it was a combination of the aesthetics and nostalgia that motivated me.
 
-In fact, most of the projects on this site will require cloud interaction of some sort—particularly with AWS's serverless products.
+It turned out to be a pretty fun experience, and something I'd recommend as a weekend project to any developer. With tools like [PICO-8](https://www.lexaloffle.com/pico-8.php) (a NES-like virtual console), it's really easy to get started — even if you're a beginner to programming.
 
-## Getting Started
+In this post, I'll be discussing why you should try your hand at retro-game development, and explain some of the technical limitations you'll be facing.
 
-> To use AWS in these projects, we'll need to set up an account, the CLI, and the SDK.
+![images/pico-8 demo](/images/jelpi_demo.gif)
 
-### Create an account
+## Why you should build a retro game
 
-If you don't already have an account then [sign up here](https://portal.aws.amazon.com/billing/signup#/start).
+For new programmers especially, a retro game project is:
 
-Once you are signed up, you should be able to log in to the [AWS Console](https://aws.amazon.com/console/). It might look overwhelming if you're seeing for the first time.
+- A great way to learn programming.
+- An excellent addition to your portfolio.
+- An effective way of prototyping new ideas (see [CELESTE](<https://en.wikipedia.org/wiki/Celeste_(video_game)>)).
 
-### Install the CLI
+The constraints of using "retro technology" creates a harsh environment to develop in.
 
-The AWS CLI is a command-line application that lets you interact with your AWS account from the terminal. It's available on all platforms.
+But at the same time, you won't have to worry about learning a hundred different libraries, monetization funnels, or how to get it running on four different platforms.
 
-If you are a proficient Python user, you can just install it with `pip`.
+Essentially, you get to focus purely on the technical and creative problems of the game itself.
 
-```bash
-pip install awscli
+## What is PICO-8?
+
+From the [PICO-8](https://www.lexaloffle.com/pico-8.php) official website:
+
+> PICO-8 is a [fantasy console](https://www.lexaloffle.com/pico-8.php?page=faq) for making, sharing and playing tiny games and other computer programs. It _feels_ like a regular console, but runs on Windows / Mac / Linux.
+
+Basically, it's a program that pretends to be a console. It costs $15 to buy. You can use it to both play _and_ create your games. You can, of course, use an external editor (like [VSCode](https://code.visualstudio.com/)) with it as well.
+
+You write code for it in [Lua](https://www.lua.org/) (if you haven't used that language before, don't worry — you'll pick it up in a day). The art and sound can be created directly in the console's editor, to be used in your game.
+
+![images/pico-8-code-editor](/images/pico-8-code-editor.png)
+
+Finally, you can even export them to HTML so your friends (and recruiters?) can check it out from their phone.
+
+I'd say the learning curve from zero to [Pong](https://en.wikipedia.org/wiki/Pong) is just a matter of hours (or days, at most).
+
+The best way to get started is to follow the [official manual](https://www.lexaloffle.com/pico-8.php?page=manual), or [watch a video](https://www.youtube.com/watch?v=K5RXMuH54iw).
+
+## PICO-8's technical specs
+
+You only have a palette of `16` colours, your canvas is `128` pixels wide and your whole program needs to fit within `65536` characters. There's almost no framework library to learn — aside from a handful of helper functions that would probably fit on a [napkin if written out](https://www.lexaloffle.com/bbs/files/16585/PICO-8_Cheat-Sheet_0-9-2.png).
+
+Comparing it to actual retro console specs, it's somewhere between a [NES](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) and an [Atari](https://en.wikipedia.org/wiki/Atari).
+
+|                    | PICO-8    | Atari     | NES       |
+| ------------------ | --------- | --------- | --------- |
+| **Year**           | 2015      | 1977      | 1985      |
+| **Resolution**     | 128 x 128 | 160 x 192 | 256 x 240 |
+| **Colors**         | 16        | 128       | 52        |
+| **Cartridge Size** | 32 kB     | 4 kB      | 128 kB    |
+
+## Code examples
+
+Here's a couple of snippets of PICO-8 code to give you an idea of what development looks like.
+
+### Game Loop
+
+The first thing to note is that the game has a special function called `_update()` which is invoked at 30 FPS. This will probably be the main driving force behind your game logic. In this snippet, we create a variable `f`, which increases by `1` each update — effectively counting the number of frames since the game loaded.
+
+```lua
+-- this is a global variable
+f = 0
+
+-- this is a special function that pico-8 invokes 30 times per second.
+function _update()
+    f += 1
+end
 ```
 
-Otherwise, check out the [official instructions](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html).
+### Rendering a sprite
 
-Once installed, you should be able to run this command from the terminal to see its version.
+You can draw sprites (images) with the pixel art editor directly in the console. In PICO-8, you have 16 colors to choose from.
 
-```bash
-aws --version
+![images/pico-8-sprite-editor](/images/pico-8-sprite-editor.png)
+
+Each sprite has an ID, which can then be used to render it on the screen at the x and y position you specify. Another special in-built function of PICO-8 is `_draw()`, which also executes at 30 FPS, but is guaranteed to execute after `_update()`.
+
+```lua
+x = 64
+y = 64
+
+function _draw()
+  cls(0) -- clear the screen and set it to color 0 (black).
+  spr(1, x, y) -- draw the sprite ID 1 at (x, y)
+end
 ```
 
-### Create an IAM user
+This will draw the above sprite (ID 1) at (64, 64) at the centre of the screen.
 
-The CLI will access your AWS account via an "IAM user." You can create one from the **Users** page in your [IAM console](https://console.aws.amazon.com/iam).
+![images/pico-8-draw-sprite](/images/pico-8-draw-sprite.png)
 
-Once the user is created, you'll need to generate access keys (passwords, essentially) for it.
+### Capturing player input
 
-* [Creating an Admin IAM User](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html)
-* [Creating access keys for a user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
+PICO-8 detects user input via the `btn(k)` function, which returns true with the button with ID `k` is being pressed by the player. `k` ranges from 0 to 6 for a single player, and each number represents either the arrow keys, or two arbitrary game-play buttons like the `A` and `B` on a NES controller.
 
-Your access keys should look something like this:
+![images/nes_controller](/images/classic_nes_controller.jpg)
 
-```
-Access key ID: AKIAIOSFODNN7EXAMPLE
-Secret access key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-```
+Adding this snippet to the rendering one above will allow us to move the character.
 
-
-### Configure the CLI
-
-Next you need to [configure the CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) so that it can access your AWS account via the IAM user.
-
-Basically, just run this command and paste in your access keys.
-
-```bash
-aws configure
+```lua
+function _update()
+  if btn(0) then x -= 2 end -- move left
+  if btn(1) then x -+ 2 end -- move right
+end
 ```
 
-Additionally, you'll also be asked for a [default region](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-region) and [default output format](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-format).
+![images/pico-8-movement](/images/pico-8-movement.gif)
 
-You may leave them empty—but generally I like to use:
+## Ideas to get started
 
-```
-Default region name [None]: us-east-1
-Default output format [None]: json
-```
+So, if you like the sound of creating your own retro-game from scratch — either to pad your CV with an extra project, or just to learn and have fun, head over to [PICO-8](https://www.lexaloffle.com/pico-8.php) to get started! I recommend first just following the [manual](https://www.lexaloffle.com/pico-8.php?page=manual).
 
-### Configuration files
+Once you've nailed the basics, here are some classic titles you could try to implement (and possibly extend):
 
-Once configured, the AWS CLI [saves the credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) and region/format profiles to your computer. They are typically in these locations:
+- [Pong](https://en.wikipedia.org/wiki/Pong) (1972)
+- [Space Invaders](https://en.wikipedia.org/wiki/Space_Invaders) (1978)
+- [Pac-Man](https://en.wikipedia.org/wiki/Pac-Man) (1980)
+- [Snake](<https://en.wikipedia.org/wiki/Snake_(video_game_genre)>) (1997)
 
-```
-~/.aws/credentials
-~/.aws/config
-```
-
-You can open them up and edit them if you like or just run `aws configure` again to change them.
-
-### Test the CLI!
-
-Now you should be able to use your CLI to access AWS. For example, I should be able to see the S3 buckets I have in `us-east-1`:
-
-```bash
-aws s3 ls
-
-2020-12-09 22:36:32 blog.pixegami.com
-2020-12-27 00:04:52 cloud-archiver.5dac84a54677.archivetest
-```
-
-Generally, everything that can be done in the console can also be done in the CLI. Check out the [full reference guide here](https://docs.aws.amazon.com/cli/latest/index.html).
-
-### AWS SDK
-
-Finally, to use AWS directly from your application code, you need to download the [SDK](https://aws.amazon.com/tools/) for the language you work with.
-
-The SDKs can be configured in different ways as well, but by default it usually uses the same profiles and credentials stored by your `aws configure`.
-
-
-### That's it! 
-
-You're all set to start using AWS.
-
-## Why AWS?
-
-When we bring "the cloud" into a project, it's usually because there's some capability we'd like to add.
-
-* Hosting for a website or service.
-* File or data storage.
-* On-demand computation.
-* Authentication.
-
-And there's many viable solutions to choose from—[Azure](https://azure.microsoft.com/en-au/), [Google Cloud](https://cloud.google.com), [Firebase](https://firebase.google.com), [Digital Ocean](https://try.digitalocean.com).
-
-So why could you choose [AWS](https://aws.amazon.com/what-is-aws/) over any of these alternatives? From a new user's perspective:
-
-* **Largest marketshare (at 30%)** which roughly translates to lots of community resources and job opportunities.
-
-* **Most services available (175+)** which means more tools at your disposal, well-integrated under one umbrella.
-
-On the flip-side, the biggest drawback is its upfront complexity.
-
-Personally though, the reason I use AWS is because it's the technology I'm most familiar with.
-
-
-## Why Serverless?
-
-**It's cheaper.** Most cloud "getting started" guides will show you how to spin up a server—a mercenary rented computer that stays online  24/7 to do your bidding.
-
-But for most of my projects, I'm going utilize technology that doesn't require a hosted server. In particular:
-
-| Service | Purpose |
-| --- | --- |
-| S3 | File storage |
-| DynamoDB | Database |
-| Lambda | Compute engine |
-
-Their on-demand pricing means the cost scales with usage. There is a [free tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc), and it only begins to cost money if usage exceeds a certain amount.
-
-For small projects with light traffic, this usually translates to monthly costs of **less than a dollar** (if not completely free).
-
-In comparison, the price of hosting a server typically starts at **$5.00 per month**.
-
-## Continue Learning
-
-* [Official documentation](https://aws.amazon.com/getting-started/)
-* [Free YouTube videos](https://www.youtube.com/watch?v=ubCNZRNjhyo)
-* [Udemy Courses](https://www.udemy.com/course/aws-certified-developer-associate/)
+Or if you're feeling more ambitious, you could even try to implement a [Mario](https://en.wikipedia.org/wiki/Super_Mario_Bros.) clone!
