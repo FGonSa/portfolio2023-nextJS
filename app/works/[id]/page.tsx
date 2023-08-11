@@ -3,6 +3,7 @@ import { Metadata, ResolvingMetadata } from "next";
 import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
+import FAB from "@/components/FAB";
 
 
 type Props = {
@@ -55,18 +56,21 @@ export default function Page({ params }: { params: { id: string } }) {
   return (
     <>
       <NavbarSegunda />
+     
       <div className="py-32 p-12">
         {/* <WorkSection /> */}
         <h1 className="text-white text-2xl text-center">{post.data.title}</h1>
         <article className=" mx-auto prose prose-invert text-white lg:prose-xl">
         <Markdown >{post.content}</Markdown>
         </article>
+     
       </div>
-
+      <FAB />
       <div className="text-center">
         <a href="/" className="py-5 text-slate-300">
         ← Go back
         </a>
+
       </div>
     </>
   );
