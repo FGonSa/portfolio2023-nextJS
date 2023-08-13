@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import FAB from "../components/FAB";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
+import Empresas from "@/components/Empresas";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function RootLayout({
         <div className="">
           <Hero />
           <About />
+          <Empresas />
           <Projects />
           <Skills />
           {children}

@@ -16,7 +16,9 @@ function Projects() {
                 Works
               </h2>
               <p className="font-normal text-base leading-6 text-gray-300 text-center mb-2">
-                Here are some of my works:
+                Here are some of my works! <br />
+                Swipe to see all the jobs. <br />
+If you click on each of them you can get more information.
               </p>
 
               <Slider works={data} />
