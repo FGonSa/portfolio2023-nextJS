@@ -8,64 +8,64 @@ function SliderCompanies() {
       <div className="image-slider">
         <div className="image-slider-track">
             <div className="slide">
-                <img src="/logos/logo.png" />
+                <img className="img"  src="/logos/logo.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo00.png" />
+                <img className="img"  src="/logos/logo00.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo01.png" />
+                <img className="img"  src="/logos/logo01.png" />
             </div>
 
             <div className="slide">
-                <img src="/logos/logo02.png" />
+                <img className="img"  src="/logos/logo02.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo03.png" />
+                <img className="img"  src="/logos/logo03.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo04.png" />
+                <img className="img"  src="/logos/logo04.png" />
             </div>
 
             <div className="slide">
-                <img src="/logos/logo05.png" />
+                <img className="img"  src="/logos/logo05.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo06.png" />
+                <img className="img"  src="/logos/logo06.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo07.png" />
-            </div>
-
-            {/* <div className="slide">
-                <img src="/logos/logo.png" />
-            </div>
-            <div className="slide">
-                <img src="/logos/logo00.png" />
-            </div>
-            <div className="slide">
-                <img src="/logos/logo01.png" />
+                <img className="img"  src="/logos/logo07.png" />
             </div>
 
             <div className="slide">
-                <img src="/logos/logo02.png" />
+                <img className="img"  src="/logos/logo.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo03.png" />
+                <img className="img"  src="/logos/logo00.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo04.png" />
+                <img className="img"  src="/logos/logo01.png" />
             </div>
 
             <div className="slide">
-                <img src="/logos/logo05.png" />
+                <img className="img"  src="/logos/logo02.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo06.png" />
+                <img className="img"  src="/logos/logo03.png" />
             </div>
             <div className="slide">
-                <img src="/logos/logo07.png" />
-            </div> */}
+                <img className="img"  src="/logos/logo04.png" />
+            </div>
+
+            <div className="slide">
+                <img className="img"  src="/logos/logo05.png" />
+            </div>
+            <div className="slide">
+                <img className="img"  src="/logos/logo06.png" />
+            </div>
+            <div className="slide">
+                <img className="img"  src="/logos/logo07.png" />
+            </div>
 
             
         </div>

@@ -5,8 +5,8 @@
 }
 
 .slide{
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 350px;
     display: grid;
     place-items: center;
     padding: 15px;
