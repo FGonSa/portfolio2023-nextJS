@@ -4,7 +4,7 @@ interface Work {
     name: string
     pic: string
     description: string
-    categories: string[]
+    categories: Category[]
     icons: Icon[]
  }
 
@@ -12,3 +12,8 @@ interface Work {
     name: string;
     url: string;
   };
+
+  type Category = {
+   category_id: number,
+   category_title: string
+  }

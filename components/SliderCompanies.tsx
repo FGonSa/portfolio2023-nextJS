@@ -9,66 +9,64 @@ function SliderCompanies() {
       <div className="image-slider">
         <div className="image-slider-track">
             <div className="slide">
-                <Image alt="logo" className="img"  src="/logos/logo.png" />
+                <Image width={250} height={150} alt="logo" className="img"  src="/logos/logo.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo00.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo00.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo01.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo01.png" />
             </div>
 
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo02.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo02.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo03.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo03.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo04.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo04.png" />
             </div>
 
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo05.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo05.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo06.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo06.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo07.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo07.png" />
             </div>
 
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo00.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo00.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo01.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo01.png" />
             </div>
 
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo02.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo02.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo03.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo03.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo04.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo04.png" />
             </div>
 
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo05.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo05.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo06.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo06.png" />
             </div>
             <div className="slide">
-                <Image alt="company logo"  className="img"  src="/logos/logo07.png" />
+                <Image width={250} height={150} alt="company logo"  className="img"  src="/logos/logo07.png" />
             </div>
-
-            
         </div>
         </div>
         </div>

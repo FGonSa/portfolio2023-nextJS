@@ -22,7 +22,7 @@ function Empresas() {
               <div>
                 <SliderCompanies />
               </div>
-              <p className="font-normal text-base leading-6 text-gray-700 text-center my-4">And many more!</p>
+              <p className="font-normal text-base leading-6 text-gray-700 text-center">And many more!</p>
 
             </div>
           </div>

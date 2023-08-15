@@ -5,7 +5,10 @@
     "pic": "/wk9.png",
     "description": "Web pages and mobile applications for congresses and societies related to the medicine and sports sectors.",
     "categories": [
-        "Tables", "Calendar", "Interactive Voting", "Mobile App"
+        {
+            "category_id": 1,
+            "category_title": "Game"
+        }
     ],
     "icons": [
         {
@@ -36,7 +39,10 @@
     "pic": "/wk8.png",
     "description": "A Facebook clone made with the MERN Stack. Contains follow/unfollow system, file upload and user registration.",
     "categories": [
-        "File Upload", "Users", "Forms", "MERN Stack"
+        {
+            "category_id": 1,
+            "category_title": "Game"
+        }
     ],
     "icons": [
         {
@@ -68,7 +74,10 @@
     "pic": "/wk2.png",
     "description": "Mobile App for a parcel company. It works on both Android and iOS thanks to React Native.",
     "categories": [
-        "Mobile App", "Multi-Device", "Tablet App", "Maps", "Android", "iOS"
+        {
+            "category_id": 1,
+            "category_title": "Game"
+        }
     ],
     "icons": [
         {
@@ -100,7 +109,10 @@
     "pic": "/wk4.png",
     "description": "The user can order the books he wants from the bookstore catalog and at the end send the order to the cashier.",
     "categories": [
-        "Eccomerce", "Orders"
+        {
+            "category_id": 1,
+            "category_title": "Game"
+        }
     ],
     "icons": [
         {
@@ -128,7 +140,10 @@
     "pic": "/wk0.png",
     "description": "Mobile App for food delivery. It works on both Android and iOS thanks to React Native.",
     "categories": [
-        "Mobile App", "Multi-Device", "Tablet App", "Maps", "Android", "iOS"
+        {
+            "category_id": 1,
+            "category_title": "Game"
+        }
     ],
     "icons": [
         {
@@ -156,7 +171,10 @@
     "pic": "/wk3.png",
     "description": "Browser application for EMTs.",
     "categories": [
-        "SaaS", "Maps", "Charts"
+        {
+            "category_id": 1,
+            "category_title": "Game"
+        }
     ],
     "icons": [
         {
@@ -187,7 +205,10 @@
     "pic": "/wk1.png",
     "description": "Browser game made for a games page of a school academy.",
     "categories": [
-        "Game"
+        {
+            "category_id": 1,
+            "category_title": "Game"
+        }
     ],
     "icons": [
         {

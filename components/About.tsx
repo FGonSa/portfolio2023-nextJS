@@ -4,6 +4,7 @@ import CarrouselAbout from "./CarrouselAbout";
 import {motion} from "framer-motion"
 import Image from "next/image";
 
+
 const About = () => {
   return (
     <motion.div
@@ -45,10 +46,11 @@ For mobile app development I use React Native.
           </p>
         </div>
         <div className="w-full lg:w-8/12 ">
-          <Image
+          <Image width={1200} height={900}
             className="w-full h-full rounded-md"
             src="/aboutpic.jpg"
             alt="A group of People"
+
           />
           <p className="text-gray-300 text-center text-sm">
             Me visiting the Konami offices in Ariake, Tokyo.
@@ -71,48 +73,48 @@ For mobile app development I use React Native.
         <div className=" hidden w-full md:block lg:w-8/12 lg:pt-8">
           <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <Image
+              <Image width={162} height={186}
                 className="md:block hidden rounded-md"
                 src="/pic1.png"
                 alt="Working on a train"
               />
-              <Image
+              <Image width={162} height={186}
                 className="md:hidden block rounded-md"
                 src="/pic1.png"
                 alt="Working on a train"
               />
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <Image
+              <Image width={162} height={186}
                 className="md:block hidden rounded-md"
                 src="/pic2.png"
                 alt="Working in a congress avenue"
               />
-              <Image
+              <Image width={162} height={186}
                 className="md:hidden block rounded-md"
                 src="/pic2.png"
                 alt="Working in a congress avenue"
               />
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <Image
+              <Image width={162} height={186}
                 className="md:block hidden rounded-md"
                 src="/pic3.png"
                 alt="Working online in different devices"
               />
-              <Image
+              <Image width={162} height={186}
                 className="md:hidden block rounded-md"
                 src="/pic3.png"
                 alt="Working online in different devices"
               />
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <Image
+              <Image width={162} height={186}
                 className="md:block hidden rounded-md"
                 src="/pic5.png"
                 alt="Talk about an app"
               />
-              <Image
+              <Image width={162} height={186}
                 className="md:hidden block rounded-md"
                 src="/pic5.png"
                 alt="Talk about an app"
