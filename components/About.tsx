@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import CarrouselAbout from "./CarrouselAbout";
-import {motion} from 'framer-motion'
+import {motion} from "framer-motion"
 import Image from "next/image";
 
 const About = () => {
@@ -24,7 +24,7 @@ const About = () => {
             F5antos
           </h2>
           <p className="font-normal text-base leading-6 text-gray-300 ">
-            Hi! I'm Frank Santos.
+            Hi! I&apos;m Frank Santos.
           </p>
           <p className="font-normal text-base leading-6 text-gray-300 ">
             I am a passionate Web/App Full-Stack developer who enjoys creating

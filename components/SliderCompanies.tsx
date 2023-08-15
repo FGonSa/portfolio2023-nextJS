@@ -1,5 +1,6 @@
 import React from 'react'
 import "./sliderCompanies.css"
+import Image from 'next/image'
 
 function SliderCompanies() {
   return (
@@ -8,63 +9,63 @@ function SliderCompanies() {
       <div className="image-slider">
         <div className="image-slider-track">
             <div className="slide">
-                <img className="img"  src="/logos/logo.png" />
+                <Image alt="logo" className="img"  src="/logos/logo.png" />
             </div>
             <div className="slide">
-                <img className="img"  src="/logos/logo00.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo00.png" />
             </div>
             <div className="slide">
-                <img className="img"  src="/logos/logo01.png" />
-            </div>
-
-            <div className="slide">
-                <img className="img"  src="/logos/logo02.png" />
-            </div>
-            <div className="slide">
-                <img className="img"  src="/logos/logo03.png" />
-            </div>
-            <div className="slide">
-                <img className="img"  src="/logos/logo04.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo01.png" />
             </div>
 
             <div className="slide">
-                <img className="img"  src="/logos/logo05.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo02.png" />
             </div>
             <div className="slide">
-                <img className="img"  src="/logos/logo06.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo03.png" />
             </div>
             <div className="slide">
-                <img className="img"  src="/logos/logo07.png" />
-            </div>
-
-            <div className="slide">
-                <img className="img"  src="/logos/logo.png" />
-            </div>
-            <div className="slide">
-                <img className="img"  src="/logos/logo00.png" />
-            </div>
-            <div className="slide">
-                <img className="img"  src="/logos/logo01.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo04.png" />
             </div>
 
             <div className="slide">
-                <img className="img"  src="/logos/logo02.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo05.png" />
             </div>
             <div className="slide">
-                <img className="img"  src="/logos/logo03.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo06.png" />
             </div>
             <div className="slide">
-                <img className="img"  src="/logos/logo04.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo07.png" />
             </div>
 
             <div className="slide">
-                <img className="img"  src="/logos/logo05.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo.png" />
             </div>
             <div className="slide">
-                <img className="img"  src="/logos/logo06.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo00.png" />
             </div>
             <div className="slide">
-                <img className="img"  src="/logos/logo07.png" />
+                <Image alt="company logo"  className="img"  src="/logos/logo01.png" />
+            </div>
+
+            <div className="slide">
+                <Image alt="company logo"  className="img"  src="/logos/logo02.png" />
+            </div>
+            <div className="slide">
+                <Image alt="company logo"  className="img"  src="/logos/logo03.png" />
+            </div>
+            <div className="slide">
+                <Image alt="company logo"  className="img"  src="/logos/logo04.png" />
+            </div>
+
+            <div className="slide">
+                <Image alt="company logo"  className="img"  src="/logos/logo05.png" />
+            </div>
+            <div className="slide">
+                <Image alt="company logo"  className="img"  src="/logos/logo06.png" />
+            </div>
+            <div className="slide">
+                <Image alt="company logo"  className="img"  src="/logos/logo07.png" />
             </div>
 
             
