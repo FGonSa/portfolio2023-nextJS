@@ -1,6 +1,14 @@
-import BackgroundCircles from "./BackgroundCircles"
+"use client"
+import { useTypewriter } from "react-simple-typewriter";
 
 export default function Hero() {
+  const [text, count] = useTypewriter({
+    words: [
+      `Fullstack Web / App Developer`,
+    ],
+    loop: true,
+    delaySpeed: 2000,
+  });
   return (
     <>
         <div className="relative isolate px-6 pt-14 lg:px-8 cross">
@@ -24,7 +32,7 @@ export default function Hero() {
                 Francisco Javier González Santos
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Fullstack Web / App Developer
+                {'<<'} {text} {'>>'}
               </p>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -32,7 +40,7 @@ export default function Hero() {
                   href="#"
                   className="rounded-md bg-yellow-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pink-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Descargar CV
+                  Download CV
                 </a>
               </div>
 
