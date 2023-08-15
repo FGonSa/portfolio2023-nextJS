@@ -4,6 +4,7 @@ import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import FAB from "@/components/FAB";
+import Footer from "@/components/Footer";
 
 
 type Props = {
@@ -70,7 +71,7 @@ export default function Page({ params }: { params: { id: string } }) {
         <a href="/" className="py-5 text-slate-300">
         ← Go back
         </a>
-
+<Footer />
       </div>
     </>
   );

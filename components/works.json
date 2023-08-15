@@ -203,37 +203,5 @@
             "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
         }
     ]
-},
-{
-    "id": 8,
-    "url": "demoportfolios",
-    "name": "Portfolios",
-    "pic": "/wk7.png",
-    "description": "Portfolios made to show the work of people.",
-    "categories": [
-        "Portfolio", "Design"
-    ],
-    "icons": [
-        {
-            "name": "Next JS",
-            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
-        },
-        {
-            "name": "React JS",
-            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-        },
-        {
-            "name": "MySQL",
-            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-        },
-        {
-            "name": "Tailwind CSS",
-            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-        },
-        {
-            "name": "Figma",
-            "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-        }
-    ]
 }
 ]
