@@ -2,6 +2,7 @@
 import React from "react";
 import CarrouselAbout from "./CarrouselAbout";
 import {motion} from 'framer-motion'
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -44,7 +45,7 @@ For mobile app development I use React Native.
           </p>
         </div>
         <div className="w-full lg:w-8/12 ">
-          <img
+          <Image
             className="w-full h-full rounded-md"
             src="/aboutpic.jpg"
             alt="A group of People"
@@ -70,48 +71,48 @@ For mobile app development I use React Native.
         <div className=" hidden w-full md:block lg:w-8/12 lg:pt-8">
           <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <img
+              <Image
                 className="md:block hidden rounded-md"
                 src="/pic1.png"
                 alt="Working on a train"
               />
-              <img
+              <Image
                 className="md:hidden block rounded-md"
                 src="/pic1.png"
                 alt="Working on a train"
               />
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <img
+              <Image
                 className="md:block hidden rounded-md"
                 src="/pic2.png"
                 alt="Working in a congress avenue"
               />
-              <img
+              <Image
                 className="md:hidden block rounded-md"
                 src="/pic2.png"
                 alt="Working in a congress avenue"
               />
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <img
+              <Image
                 className="md:block hidden rounded-md"
                 src="/pic3.png"
                 alt="Working online in different devices"
               />
-              <img
+              <Image
                 className="md:hidden block rounded-md"
                 src="/pic3.png"
                 alt="Working online in different devices"
               />
             </div>
             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-              <img
+              <Image
                 className="md:block hidden rounded-md"
                 src="/pic5.png"
                 alt="Talk about an app"
               />
-              <img
+              <Image
                 className="md:hidden block rounded-md"
                 src="/pic5.png"
                 alt="Talk about an app"

@@ -44,7 +44,7 @@ export default function RootLayout({
           <FAB />
         </div>
         <Footer />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js" async></script>
       </body>
     </html>
   );
