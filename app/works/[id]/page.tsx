@@ -32,7 +32,7 @@ const getPostContent = (slug: string) => {
     return matterResult;
   } catch (error) {
     // Si no se encuentra el archivo, cargar "404.md" en su lugar
-    const notFoundContent = fs.readFileSync("posts/404.md", "utf8");
+    const notFoundContent = "ERROR VERCEL";
     const notFoundMatterResult = matter(notFoundContent);
     return notFoundMatterResult;
   }
