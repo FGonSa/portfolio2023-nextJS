@@ -16,23 +16,23 @@ type Props = {
 
 
 //METADATA DINÁMICA
-export async function generateMetadata(
-  { params, searchParams }: Props,
-  parent?: ResolvingMetadata
-): Promise<Metadata> {
-  // read route params
-  const id = params.id;
+// export async function generateMetadata(
+//   { params, searchParams }: Props,
+//   parent?: ResolvingMetadata
+// ): Promise<Metadata> {
+//   // read route params
+//   const id = params.id;
 
-  const post = getPostContent(id); // Obtener el contenido del post usando el ID
+//   const post = getPostContent(id); // Obtener el contenido del post usando el ID
 
-  // Asegúrate de que 'data.description' sea la propiedad correcta en tu estructura de datos
-  const description = post.data.description;
+//   // Asegúrate de que 'data.description' sea la propiedad correcta en tu estructura de datos
+//   const description = post.data.description;
 
-  return {
-    title: id + " - F5antos Portfolio",
-    description: description,
-  };
-}
+//   return {
+//     title: id + " - F5antos Portfolio",
+//     description: description,
+//   };
+// }
 
 //OBTENER EL CONTENIDO DEL POST MARKDOWN
 const getPostContent = (slug: string) => {
