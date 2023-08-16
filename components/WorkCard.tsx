@@ -3,31 +3,12 @@ import Link from "next/link";
 import React from "react";
 import { Tooltip } from "react-tooltip";
 
-interface Category {
-  category_id: number;
-  category_title: string;
-}
-
-interface Icon {
-  url: string;
-  name: string;
-}
-
-interface Work {
-  url: string;
-  pic: string;
-  name: string;
-  description: string;
-  categories: Category[];
-  icons: Icon[];
-}
-
-interface Props {
+type Props = {
   work: Work;
-}
+  url: string;
+};
 
-
-const WorkCard: React.FC<Props> = ({ work }) => {
+function WorkCard({ work }: Props) {
   return (
     <>
       <Link href={`/works/${work.url}`}>
