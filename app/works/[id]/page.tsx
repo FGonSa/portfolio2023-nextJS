@@ -23,9 +23,14 @@ export async function generateMetadata(
   // read route params
   const id = params.id;
 
+  const post = getPostContent(id); // Obtener el contenido del post usando el ID
+
+  // Asegúrate de que 'data.description' sea la propiedad correcta en tu estructura de datos
+  const description = post.data.description;
+
   return {
     title: id + " - F5antos Portfolio",
-    description: id,
+    description: description,
   };
 }
 
