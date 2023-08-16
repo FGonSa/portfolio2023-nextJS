@@ -20,14 +20,17 @@ export async function generateMetadata(
   { params, searchParams }: Props,
   parent?: ResolvingMetadata
 ): Promise<Metadata> {
-  // read route params
+  // leer los parámetros de la ruta
   const id = params.id;
 
-  return {
+  const metadata: Metadata = {
     title: id + " - F5antos Portfolio",
     description: id,
   };
+
+  return metadata;
 }
+
 
 //OBTENER EL CONTENIDO DEL POST MARKDOWN
 const getPostContent = (slug: string) => {
