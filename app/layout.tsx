@@ -8,7 +8,7 @@ import Projects from "../components/Projects";
 import Footer from "../components/Footer";
 import FAB from "../components/FAB";
 import Skills from "../components/Skills";
-import Contact from "../components/Contact";
+
 import Empresas from "@/components/Empresas";
 
 const inter = Inter({ subsets: ["latin"] });
