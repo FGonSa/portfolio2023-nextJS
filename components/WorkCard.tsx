@@ -40,7 +40,7 @@ function WorkCard({ work, url }: Props) {
                   data-tooltip-id="my-tooltip"
                   data-tooltip-content={icon.name}
                 >
-                  <Tooltip id={`tooltip-${icon.url}`} key={`tooltip-${icon.url}`} />
+                  <Tooltip id="my-tooltip"  key={`tooltip-${icon.url}`}/>
                   <Image
                     className="w-10 h-10 rounded-full mr-4"
                     src={icon.url}
