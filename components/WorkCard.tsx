@@ -36,10 +36,11 @@ function WorkCard({ work, url }: Props) {
             <div className="flex items-center py-4">
               {work.icons.map((icon) => (
                 <div
+                key={icon.url}
                   data-tooltip-id="my-tooltip"
                   data-tooltip-content={icon.name}
                 >
-                  <Tooltip id="my-tooltip" />
+                  <Tooltip id={`tooltip-${icon.url}`} key={`tooltip-${icon.url}`} />
                   <Image
                     className="w-10 h-10 rounded-full mr-4"
                     src={icon.url}
