@@ -5,6 +5,7 @@ import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import FAB from "@/components/FAB";
 import Footer from "@/components/Footer";
+import path from "path";
 
 
 type Props = {
@@ -24,10 +25,11 @@ export const metadata: Metadata = {
 //OBTENER EL CONTENIDO DEL POST MARKDOWN
 const getPostContent = (slug: string) => {
   const folder = "_posts/";
-  const file = `${folder}${slug}.md`;
+  const file = `${slug}.md`;
+  const algo = path.resolve(process.cwd(), `_posts/${file}`)
 
   try {
-    const content = fs.readFileSync(file, "utf8");
+    const content = fs.readFileSync(algo, "utf8");
     const matterResult = matter(content);
     return matterResult;
   } catch (error) {
