@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 //OBTENER EL CONTENIDO DEL POST MARKDOWN
 const getPostContent = (slug: string) => {
-  const folder = "app/posts/";
+  const folder = "posts/";
   const file = `${folder}${slug}.md`;
 
   try {
