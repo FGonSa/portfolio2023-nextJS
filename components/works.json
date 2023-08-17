@@ -6,8 +6,32 @@
     "description": "Web pages and mobile applications for congresses and societies related to the medicine and sports sectors.",
     "categories": [
         {
-            "category_id": 1,
-            "category_title": "Game"
+            "category_id": 11,
+            "category_title": "Forms"
+        },
+        {
+            "category_id": 2,
+            "category_title": "Mobile App"
+        },
+        {
+            "category_id": 3,
+            "category_title": "Android"
+        },
+        {
+            "category_id": 4,
+            "category_title": "iOS"
+        },
+        {
+            "category_id": 5,
+            "category_title": "Multi-Device"
+        },
+        {
+            "category_id": 6,
+            "category_title": "Upload Files"
+        },
+        {
+            "category_id": 7,
+            "category_title": "Tables"
         }
     ],
     "icons": [
@@ -40,8 +64,20 @@
     "description": "A Facebook clone made with the MERN Stack. Contains follow/unfollow system, file upload and user registration.",
     "categories": [
         {
-            "category_id": 1,
-            "category_title": "Game"
+            "category_id": 11,
+            "category_title": "Forms"
+        },
+        {
+            "category_id": 5,
+            "category_title": "Multi-Device"
+        },
+        {
+            "category_id": 6,
+            "category_title": "Upload Files"
+        },
+        {
+            "category_id": 12,
+            "category_title": "Users"
         }
     ],
     "icons": [
@@ -75,8 +111,28 @@
     "description": "Mobile App for a parcel company. It works on both Android and iOS thanks to React Native.",
     "categories": [
         {
-            "category_id": 1,
-            "category_title": "Game"
+            "category_id": 2,
+            "category_title": "Mobile App"
+        },
+        {
+            "category_id": 3,
+            "category_title": "Android"
+        },
+        {
+            "category_id": 4,
+            "category_title": "iOS"
+        },
+        {
+            "category_id": 5,
+            "category_title": "Multi-Device"
+        },
+        {
+            "category_id": 8,
+            "category_title": "Maps"
+        },
+        {
+            "category_id": 9,
+            "category_title": "Search Filters"
         }
     ],
     "icons": [
@@ -110,8 +166,12 @@
     "description": "The user can order the books he wants from the bookstore catalog and at the end send the order to the cashier.",
     "categories": [
         {
-            "category_id": 1,
-            "category_title": "Game"
+            "category_id": 9,
+            "category_title": "Ecommerce"
+        },
+        {
+            "category_id": 13,
+            "category_title": "Orders in Real Time"
         }
     ],
     "icons": [
@@ -141,8 +201,28 @@
     "description": "Mobile App for food delivery. It works on both Android and iOS thanks to React Native.",
     "categories": [
         {
-            "category_id": 1,
-            "category_title": "Game"
+            "category_id": 2,
+            "category_title": "Mobile App"
+        },
+        {
+            "category_id": 3,
+            "category_title": "Android"
+        },
+        {
+            "category_id": 4,
+            "category_title": "iOS"
+        },
+        {
+            "category_id": 5,
+            "category_title": "Multi-Device"
+        },
+        {
+            "category_id": 8,
+            "category_title": "Maps"
+        },
+        {
+            "category_id": 9,
+            "category_title": "Ecommerce"
         }
     ],
     "icons": [
@@ -172,8 +252,20 @@
     "description": "Browser application for EMTs.",
     "categories": [
         {
-            "category_id": 1,
-            "category_title": "Game"
+            "category_id": 11,
+            "category_title": "Forms"
+        },
+        {
+            "category_id": 10,
+            "category_title": "Charts"
+        },
+        {
+            "category_id": 5,
+            "category_title": "Multi-Device"
+        },
+        {
+            "category_id": 8,
+            "category_title": "Maps"
         }
     ],
     "icons": [
