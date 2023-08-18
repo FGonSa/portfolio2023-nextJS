@@ -24,17 +24,17 @@ export const metadata: Metadata = {
 
 //OBTENER EL CONTENIDO DEL POST MARKDOWN
 const getPostContent = (slug: string) => {
-  const folder = "_posts/";
+  
   const file = `${slug}.md`;
-  const algo = path.resolve(process.cwd(), `_posts/${file}`)
+  const article_path = path.resolve(process.cwd(), `_posts/${file}`)
 
   try {
-    const content = fs.readFileSync(algo, "utf8");
+    const content = fs.readFileSync(article_path, "utf8");
     const matterResult = matter(content);
     return matterResult;
   } catch (error) {
     // Si no se encuentra el archivo, cargar "404.md" en su lugar
-    const notFoundContent = "ERROR VERCEL";
+    const notFoundContent = "404 NOT FOUND";
     const notFoundMatterResult = matter(notFoundContent);
     return notFoundMatterResult;
   }

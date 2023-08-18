@@ -11,10 +11,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css"
-          rel="stylesheet"
-        />
       </head>
       <body className="bg-gray-900">
         <div className="">
