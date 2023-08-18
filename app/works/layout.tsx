@@ -15,7 +15,6 @@ export default function RootLayout({
       <body className="bg-gray-900">
         <div className="">
           {children}
-
         </div>
       </body>
     </html>
