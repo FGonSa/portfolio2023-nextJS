@@ -6,6 +6,7 @@ import matter from "gray-matter";
 import FAB from "@/components/FAB";
 import Footer from "@/components/Footer";
 import path from "path";
+import Link from "next/link";
 
 
 type Props = {
@@ -85,9 +86,9 @@ export default function Page({ params }: { params: { id: string } }) {
           </div>
       <FAB />
       <div className="text-center">
-        <a href="/" className="py-5 text-slate-300">
+        <Link href="/" className="py-5 text-slate-300">
         ← Go back
-        </a>
+        </Link>
 <Footer />
       </div>
     </>

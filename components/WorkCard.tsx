@@ -3,12 +3,16 @@ import Link from "next/link";
 import React from "react";
 import { Tooltip } from "react-tooltip";
 
+
 type Props = {
   work: Work;
   url: string;
 };
 
 function WorkCard({ work }: Props) {
+
+ 
+
   return (
     <>
       <Link href={`/works/${work.url}`}>
