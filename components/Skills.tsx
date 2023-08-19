@@ -16,7 +16,7 @@ function Skills() {
               Here are some of my skills:
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 mx-auto justify-between py-2">
+            <div className="hidden md:grid grid-cols-2 md:grid-cols-4 mx-auto justify-between py-2">
               <ul className="space-y-4 text-left text-gray-400 dark:text-gray-400 mb-4">
                 <li className="flex items-center space-x-3">
                   <svg
@@ -425,6 +425,414 @@ function Skills() {
                 </li>
               </ul>
             </div>
+
+            <div className="sm:hidden grid-cols-2 mx-auto justify-between py-2">
+            <div className="grid grid-cols-2 md:grid-cols-4 mx-auto justify-between py-2">
+            <ul className="space-y-4 text-center mx-auto text-gray-400 dark:text-gray-400 mb-4">
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>Next JS</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>React</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Vue
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    React Native
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    PHP (Laravel)
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>MERN Stack</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>Prisma</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    GraphQL
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Firebase
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Github
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+              </ul>
+
+              <ul className="space-y-4 text-center mx-auto text-gray-400 dark:text-gray-400">
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>TypeScript</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>JavaScript</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Java
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Bootstrap 5
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Figma / Adobe XD
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>Tailwind CSS</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>MySQL</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Mongo DB
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Wordpress / Joomla
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-3.5 h-3.5 text-amber-500 dark:text-green-400"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 16 12"
+                  >
+                    <path
+                      stroke="currentColor"
+                      // stroke-linecap="round"
+                      // stroke-linejoin="round"
+                      // stroke-width="2"
+                      d="M1 5.917 5.724 10.5 15 1.5"
+                    />
+                  </svg>
+                  <span>
+                    Node JS / Express
+                    <span className="font-semibold text-gray-900 dark:text-white"></span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            </div>
+
+
           </div>
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
             <h2
