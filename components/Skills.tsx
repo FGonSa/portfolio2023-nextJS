@@ -852,12 +852,12 @@ function Skills() {
 <a href="https://www.coursera.org/account/accomplishments/verify/BXMARAFBN6DW?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" className="bg-amber-100 hover:bg-amber-200 text-blue-900 text-md font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-amber-400 inline-flex items-center justify-center w-full">Google Certificate - Foundations of User Experience (UX) Design</a>
                 </li>
 
-                                <li className="m-2">
+                                <li className="m-2 text-center">
                     
 <a href="https://www.efset.org/cert/j7HGD9" className="bg-amber-100 hover:bg-amber-200 text-blue-900 text-md font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-amber-400 inline-flex items-center justify-center w-full">EF SET English Certificate 66/100 (C1 Advanced)</a>
                 </li>
 
-                <li className="m-2">
+                <li className="m-2 text-center">
                     
 <a href="/java.pdf" className="bg-amber-100 hover:bg-amber-200 text-blue-900 text-md font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-amber-400 inline-flex items-center justify-center w-full">IT Academy - JAVA Foundations: POO</a>
                 </li>
