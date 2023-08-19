@@ -49,7 +49,7 @@ For mobile app development I use React Native.
           <Image width={1200} height={900}
             className="w-full h-full rounded-md"
             src="/aboutpic.jpg"
-            alt="A group of People"
+            alt="Konami Offices"
 
           />
           <p className="text-gray-300 text-center text-sm">
